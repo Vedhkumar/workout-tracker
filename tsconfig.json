@@ -7,13 +7,13 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ],
+  ]
 
   /* shadcn config */
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+  // "compilerOptions": {
+  //   "baseUrl": ".",
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   }
+  // }
 }
