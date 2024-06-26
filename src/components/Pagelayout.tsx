@@ -6,7 +6,7 @@ function Pagelayout() {
     <>
       <Header />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

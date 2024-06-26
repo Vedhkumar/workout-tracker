@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between p-3 bg-gray-300">
+    <header className="sticky top-0 z-10 flex items-center justify-between p-3 bg-gray-200">
       <NavLink
         to="/"
         end
@@ -17,10 +17,10 @@ function Header() {
       </NavLink>
 
       {/* Menu icon only visible on mobile devices */}
-      <Menu className="cursor-pointer sm:hidden" />
+      {/* <Menu className="cursor-pointer sm:hidden" /> */}
 
       {/* navigation menu from shadcn */}
-      <nav className="hidden sm:flex">
+      {/* <nav className="hidden sm:flex">
         <NavLink
           to="/routine"
           // className=""
@@ -30,9 +30,9 @@ function Header() {
               : "hidden font-bold sm:flex hover:text-blue-700"
           }
         >
-          Your Routine
+          My Routines
         </NavLink>
-      </nav>
+      </nav> */}
     </header>
   );
 }
