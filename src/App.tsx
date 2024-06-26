@@ -8,10 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Pagelayout />}>
-          <Route index element={<HomePage />} />
-          <Route path="routine" element={<Routine />} />
-          <Route path="create-routine" element={<CreateRoutine />} />
+        <Route path="/" element= {<Pagelayout />}>
+          <Route index element= {<HomePage />} />
+          <Route path="routine" element= {<Routine />} />
+          <Route path="create-routine" element= {<CreateRoutine />} />
         </Route>
       </Routes>
     </BrowserRouter>
